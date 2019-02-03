@@ -170,15 +170,15 @@ if __name__ == "__main__":
                             'B5': '1', 'B6': '8', 'B7': '27', 'E9': '2', 'B1': '9', 'B2': '5', 'B3': '6', 'D6': '279',
                             'D7': '34', 'D4': '237', 'D5': '347', 'B8': '3', 'B9': '4', 'D1': '5'}
     
-    #display(grid2values(diag_sudoku_grid))
-    #result = solve(diag_sudoku_grid)
-    #display(result)
-    display(before_naked_twins_1)
-    display(naked_twins(before_naked_twins_1))
+    display(grid2values(diag_sudoku_grid))
+    result = solve(diag_sudoku_grid)
+    display(result)
+    #display(before_naked_twins_1)
+    #display(naked_twins(before_naked_twins_1))
 
     try:
         import PySudoku
-        #PySudoku.play(grid2values(diag_sudoku_grid), result, history)
+        PySudoku.play(grid2values(diag_sudoku_grid), result, history)
 
     except SystemExit:
         pass
