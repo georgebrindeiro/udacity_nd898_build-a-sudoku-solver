@@ -1,2 +1,7 @@
-# udacity_nd898_build-a-sudoku-solver
+# udacity_nd110_investigate-a-dataset
+
+Udacity
+
+Artificial Intelligence Nanodegree (nd898)
+
 Project: Build a Sudoku Solver
